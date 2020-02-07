@@ -15,6 +15,7 @@
 		31AEC14623ED47D000288C78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31AEC14423ED47D000288C78 /* LaunchScreen.storyboard */; };
 		31AEC15123ED47D100288C78 /* AuthDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AEC15023ED47D100288C78 /* AuthDemoTests.swift */; };
 		31AEC15C23ED47D100288C78 /* AuthDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AEC15B23ED47D100288C78 /* AuthDemoUITests.swift */; };
+		31DD204023ED507E008892D0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31DD203F23ED507D008892D0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		31AEC15723ED47D100288C78 /* AuthDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AuthDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31AEC15B23ED47D100288C78 /* AuthDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDemoUITests.swift; sourceTree = "<group>"; };
 		31AEC15D23ED47D100288C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31DD203F23ED507D008892D0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		31AEC12D23ED47CE00288C78 = {
 			isa = PBXGroup;
 			children = (
+				31DD203F23ED507D008892D0 /* GoogleService-Info.plist */,
 				31AEC13823ED47CE00288C78 /* AuthDemo */,
 				31AEC14F23ED47D100288C78 /* AuthDemoTests */,
 				31AEC15A23ED47D100288C78 /* AuthDemoUITests */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31AEC14623ED47D000288C78 /* LaunchScreen.storyboard in Resources */,
+				31DD204023ED507E008892D0 /* GoogleService-Info.plist in Resources */,
 				31AEC14323ED47D000288C78 /* Preview Assets.xcassets in Resources */,
 				31AEC14023ED47D000288C78 /* Assets.xcassets in Resources */,
 			);
