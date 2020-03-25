@@ -8,14 +8,27 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Login: View {
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            
+            Image("background")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+            
+            VStack {
+                Image("logo")
+                Image("cloudstorage")
+                                
+                Image("usericon")
+                
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Login()
     }
 }
